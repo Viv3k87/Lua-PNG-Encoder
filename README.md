@@ -3,7 +3,7 @@ This module was fully created by me, @Viv3k_87 on Discord
 The module will prodcue a compressed PNG image file given the RGB values.
 The values are compressed using the DEFLATE compression algorothim as per the PNG standard and the Deflate function produces a fully valid Zlib stream.
 
-NOTE: The module only works in Lua 5.3 and greater because it uses the native binary operators, which is not supported under this version
+NOTE: The module only works in Lua 5.3 and greater because it uses the native binary operators, which are not supported under this version
 
 The EncodePNG function only takes the pixel values in the following format:
 
