@@ -1,7 +1,7 @@
 This module was fully created by me, @Viv3k_87 on Discord
 
-The module will prodcue a compressed PNG image file given the RGB values
-The values are compressed using the DEFLATE compression algorothim as per the PNG standard and the Deflate function produces a fully valid Zlib stream
+The module will prodcue a compressed PNG image file given the RGB values.
+The values are compressed using the DEFLATE compression algorothim as per the PNG standard and the Deflate function produces a fully valid Zlib stream.
 
 NOTE: The module only works in Lua 5.3 and greater because it uses the native binary operators, which is not supported under this version
 
@@ -15,8 +15,9 @@ local img = {
  
  }
  
-This would represnt a 2 by 2 image with red in the top left, green in the top right, black in the bottom left and blue in the bottom right
-You may also add a 4th value in all pixels for an alpha value
+This would represnt a 2 by 2 image with red in the top left, green in the top right, black in the bottom left and blue in the bottom right.
+You may also add a 4th value in all pixels for an alpha value.
+
 NOTE: all color values must be integers from 0-255 or the module will error
 
 Heres the explanation of the arguments you must pass: 
