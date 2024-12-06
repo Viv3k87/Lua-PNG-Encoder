@@ -26,7 +26,6 @@ Heres the explanation of the arguments you must pass:
 For the image above you would call the function like this: 
 
 local EncodePNG = require(EncodePNG module path)
-
 EncodePNG("FileName", 2, 2, img, 2, true)
 
 You may want to edit the PNGEncoder Module to decrease MaxSearchDepth in the ChooseMatch function or decrease the LZ77 window size defined at the top of the module,
