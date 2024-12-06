@@ -8,8 +8,11 @@ NOTE: The module only works in Lua 5.3 and greater because it uses the native bi
 The EncodePNG function only takes the pixel values in the following format:
 
 local img = {
+
  { {255, 0, 0}, {0, 255, 0} }, --row 1 of pixels
+ 
  { {0, 0, 0}, {0, 0, 255} } --row 2
+ 
  }
  
 This would represnt a 2 by 2 image with red in the top left, green in the top right, black in the bottom left and blue in the bottom right
@@ -26,6 +29,7 @@ Heres the explanation of the arguments you must pass:
 For the image above you would call the function like this: 
 
 local EncodePNG = require(EncodePNG module path)
+
 EncodePNG("FileName", 2, 2, img, 2, true)
 
 You may want to edit the PNGEncoder Module to decrease MaxSearchDepth in the ChooseMatch function or decrease the LZ77 window size defined at the top of the module,
