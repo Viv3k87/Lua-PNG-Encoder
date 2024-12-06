@@ -29,7 +29,7 @@ Heres the explanation of the arguments you must pass:
 
 For the image above you would call the function like this: 
 
-local EncodePNG = require(EncodePNG module path)
+local EncodePNG = require(PngEncoder.lua file path)
 
 EncodePNG("FileName", 2, 2, img, 2, true)
 
