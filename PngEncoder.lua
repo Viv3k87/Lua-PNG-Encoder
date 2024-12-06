@@ -252,7 +252,7 @@ function ChooseMatch(ByteStream, StartIdx, PossibleIndexes)
     local LongestMatch = 0
     local MatchIdx = nil
     local Min, Max = GetBounds(PossibleIndexes, StartIdx - WindowSize, StartIdx)
-    local MaxSearchDepth = 200
+    local MaxSearchDepth = 140
 
     for i = Max, Min, -1 do
         local PossibleMatch = PossibleIndexes[i]
